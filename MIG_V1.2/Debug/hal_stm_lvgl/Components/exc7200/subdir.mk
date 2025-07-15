@@ -1,0 +1,27 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (12.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../hal_stm_lvgl/Components/exc7200/exc7200.c 
+
+OBJS += \
+./hal_stm_lvgl/Components/exc7200/exc7200.o 
+
+C_DEPS += \
+./hal_stm_lvgl/Components/exc7200/exc7200.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+hal_stm_lvgl/Components/exc7200/%.o hal_stm_lvgl/Components/exc7200/%.su hal_stm_lvgl/Components/exc7200/%.cyclo: ../hal_stm_lvgl/Components/exc7200/%.c hal_stm_lvgl/Components/exc7200/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I"D:/MIG_PROJECTS/MIG_0.1/MIG_V1.2" -I../lvgl/src/font/lv_font_montserrat_18.c -I../lvgl/src/font/lv_font_montserrat_24.c -I../lvgl/src/font/lv_font_montserrat_26.c -I../lvgl/src/font/lv_font_montserrat_20.c -I../lvgl/src/font/lv_font_montserrat_22.c -I../lvgl/src/font/lv_font_montserrat_28.c -I"D:/MIG_PROJECTS/MIG_0.1/MIG_V1.2/hal_stm_lvgl/STM32746G-Discovery" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Middlewares/Third_Party/LwIP/src/apps/httpd -I../Middlewares/Third_Party/LwIP/src/include/lwip/apps -I../LWIP/App -I../LWIP/Target -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Drivers/BSP/Components/lan8742 -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Middlewares/Third_Party/LwIP/src/apps/http -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/lwip/priv -I../Middlewares/Third_Party/LwIP/src/include/lwip/prot -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/src/include/compat/posix -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/arpa -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/net -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/sys -I../Middlewares/Third_Party/LwIP/src/include/compat/stdc -I../Middlewares/Third_Party/LwIP/system/arch -I../lvgl/src/font/lv_font_montserrat_32.c -I../lvgl/src/font/lv_font_montserrat_32.c -I../lvgl/src/font -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-hal_stm_lvgl-2f-Components-2f-exc7200
+
+clean-hal_stm_lvgl-2f-Components-2f-exc7200:
+	-$(RM) ./hal_stm_lvgl/Components/exc7200/exc7200.cyclo ./hal_stm_lvgl/Components/exc7200/exc7200.d ./hal_stm_lvgl/Components/exc7200/exc7200.o ./hal_stm_lvgl/Components/exc7200/exc7200.su
+
+.PHONY: clean-hal_stm_lvgl-2f-Components-2f-exc7200
+
