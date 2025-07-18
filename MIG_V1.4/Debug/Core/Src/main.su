@@ -1,0 +1,9 @@
+../Drivers/CMSIS/Include/core_cm7.h:2229:22:SCB_EnableICache	4	static,ignoring_inline_asm
+../Drivers/CMSIS/Include/core_cm7.h:2281:22:SCB_EnableDCache	24	static,ignoring_inline_asm
+../Core/Src/../../lvgl/src/lv_api_map.h:35:51:lv_task_handler	8	static
+../Core/Src/main.c:172:6:Set_PWM_Duty	24	static
+../Core/Src/main.c:188:5:main	8	static
+../Core/Src/main.c:293:7:HAL_GPIO_EXTI_Callback	16	static
+../Core/Src/main.c:309:6:uart_code_for_dc_motor	16	static
+../Core/Src/main.c:357:6:SystemClock_Config	88	static
+../Core/Src/main.c:418:6:Error_Handler	4	static,ignoring_inline_asm

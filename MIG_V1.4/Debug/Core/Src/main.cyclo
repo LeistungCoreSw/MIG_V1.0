@@ -1,0 +1,9 @@
+../Drivers/CMSIS/Include/core_cm7.h:2229:22:SCB_EnableICache	1
+../Drivers/CMSIS/Include/core_cm7.h:2281:22:SCB_EnableDCache	3
+../Core/Src/../../lvgl/src/lv_api_map.h:35:51:lv_task_handler	1
+../Core/Src/main.c:172:6:Set_PWM_Duty	3
+../Core/Src/main.c:188:5:main	2
+../Core/Src/main.c:293:7:HAL_GPIO_EXTI_Callback	3
+../Core/Src/main.c:309:6:uart_code_for_dc_motor	8
+../Core/Src/main.c:357:6:SystemClock_Config	4
+../Core/Src/main.c:418:6:Error_Handler	1
